@@ -23,7 +23,7 @@ Detailed performance metrics and analysis
 
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Home_screenshot.png" alt="Home screenshot" width="400"/>
+    <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Home_screenshot.png" alt="Home screenshot" width="600"/>
 </div>
 
 
