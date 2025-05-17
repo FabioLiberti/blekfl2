@@ -1,7 +1,7 @@
 
 <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <img src="Blekinge.jpeg" alt="Blekinge Institute of Technology Logo" width="200"/>
-    <img src="Mercatorum.png" alt="Universitas Mercatorum Logo" width="200"/>
+    <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Blekinge.jpeg" alt="Blekinge Institute of Technology Logo" width="200"/>
+    <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Mercatorum.png" alt="Universitas Mercatorum Logo" width="200"/>
 </div>
 
 # BLEKFL2 - Federated Learning Heterogeneity Explorer 
@@ -18,6 +18,15 @@ Support for multiple standard datasets (MNIST, Fashion MNIST, CIFAR-10)
 Implementation of key federated learning algorithms (FedAvg, FedProx)
 Real-time visualization of training progress
 Detailed performance metrics and analysis
+
+
+
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Home_screenshot.png" alt="Home screenshot" width="400"/>
+</div>
+
+
 
 
 # Documentazione Completa del Simulatore di Federated Learning
