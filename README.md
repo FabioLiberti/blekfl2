@@ -1,29 +1,61 @@
+
+<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
+    <img src="Blekinge.jpeg" alt="Blekinge Institute of Technology Logo" width="200"/>
+    <img src="Mercatorum.png" alt="Universitas Mercatorum Logo" width="200"/>
+</div>
+
+# BLEKFL2 - Federated Learning Heterogeneity Explorer 
+Version 1.0.0
+
+This framework is the result of a wonderful collaboration between the Blekinge Institute of Technology, BTH (Karlskrona, Sweden) and the University of the Italian Chambers of Commerce, Universitas Mercatorum (Rome, Italy).
+
+This platform is designed for educational purposes to demonstrate the effects of different types of heterogeneity in federated learning environments. By running controlled experiments, users can visualize and understand how statistical, model, communication, and hardware heterogeneity impact federated learning performance.
+
+
+## Features
+Interactive experiments with various heterogeneity types
+Support for multiple standard datasets (MNIST, Fashion MNIST, CIFAR-10)
+Implementation of key federated learning algorithms (FedAvg, FedProx)
+Real-time visualization of training progress
+Detailed performance metrics and analysis
+
+
 # Documentazione Completa del Simulatore di Federated Learning
 
 ## Indice
-1. [Introduzione](#introduzione)
-2. [Architettura del Sistema](#architettura-del-sistema)
-3. [File del Progetto](#file-del-progetto)
-   - [app.py](#apppy)
-   - [dataset_manager.py](#dataset_managerpy)
-   - [federated_learning.py](#federated_learningpy)
-   - [index.html](#indexhtml)
-   - [main.js](#mainjs)
-4. [Principi del Federated Learning](#principi-del-federated-learning)
-5. [Algoritmi Implementati](#algoritmi-implementati)
-   - [FedAvg (Federated Averaging)](#fedavg-federated-averaging)
-   - [FedProx (Federated Proximal)](#fedprox-federated-proximal)
-6. [Dataset Supportati](#dataset-supportati)
-7. [Modelli Neurali](#modelli-neurali)
-   - [MNISTNet](#mnistnet)
-   - [CIFAR10Net](#cifar10net)
-8. [Distribuzione dei Dati](#distribuzione-dei-dati)
-   - [IID (Independent and Identically Distributed)](#iid-independent-and-identically-distributed)
-   - [Non-IID (Dirichlet Distribution)](#non-iid-dirichlet-distribution)
-9. [Metriche e Valutazione](#metriche-e-valutazione)
-10. [Interfaccia Web](#interfaccia-web)
-11. [Requisiti del Sistema](#requisiti-del-sistema)
-12. [Possibili Estensioni](#possibili-estensioni)
+- [BLEKFL2 - Federated Learning Heterogeneity Explorer](#blekfl2---federated-learning-heterogeneity-explorer)
+  - [Features](#features)
+- [Documentazione Completa del Simulatore di Federated Learning](#documentazione-completa-del-simulatore-di-federated-learning)
+  - [Indice](#indice)
+  - [Introduzione](#introduzione)
+  - [Architettura del Sistema](#architettura-del-sistema)
+  - [File del Progetto](#file-del-progetto)
+    - [app.py](#apppy)
+    - [dataset\_manager.py](#dataset_managerpy)
+    - [federated\_learning.py](#federated_learningpy)
+    - [index.html](#indexhtml)
+    - [main.js](#mainjs)
+  - [Principi del Federated Learning](#principi-del-federated-learning)
+  - [Algoritmi Implementati](#algoritmi-implementati)
+    - [FedAvg (Federated Averaging)](#fedavg-federated-averaging)
+    - [FedProx (Federated Proximal)](#fedprox-federated-proximal)
+  - [Dataset Supportati](#dataset-supportati)
+    - [MNIST](#mnist)
+    - [Fashion MNIST](#fashion-mnist)
+    - [CIFAR10](#cifar10)
+  - [Modelli Neurali](#modelli-neurali)
+    - [MNISTNet](#mnistnet)
+    - [CIFAR10Net](#cifar10net)
+  - [Distribuzione dei Dati](#distribuzione-dei-dati)
+    - [IID (Independent and Identically Distributed)](#iid-independent-and-identically-distributed)
+    - [Non-IID (Dirichlet Distribution)](#non-iid-dirichlet-distribution)
+  - [Metriche e Valutazione](#metriche-e-valutazione)
+    - [Accuratezza Globale](#accuratezza-globale)
+    - [Divergenza dei Client](#divergenza-dei-client)
+    - [Tempo di Addestramento](#tempo-di-addestramento)
+  - [Interfaccia Web](#interfaccia-web)
+  - [Requisiti del Sistema](#requisiti-del-sistema)
+  - [Possibili Estensioni](#possibili-estensioni)
 
 ## Introduzione
 
