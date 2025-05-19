@@ -1,7 +1,11 @@
 
-<div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 20px;">
-    <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Blekinge.jpeg" alt="Blekinge Institute of Technology Logo" width="200"/>
-    <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Mercatorum.png" alt="Universitas Mercatorum Logo" width="200"/>
+<div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-bottom: 30px;">
+    <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
+        <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Blekinge.jpeg" alt="Blekinge Institute of Technology Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"/>
+    </div>
+    <div style="width: 200px; height: 200px; display: flex; align-items: center; justify-content: center;">
+        <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Mercatorum.png" alt="Universitas Mercatorum Logo" style="max-width: 100%; max-height: 100%; object-fit: contain;"/>
+    </div>
 </div>
 
 # BLEKFL2 - Federated Learning Heterogeneity Explorer 
