@@ -733,7 +733,7 @@ If you use BLEKFL2 in your research, please cite our work:
 
 ## 📜 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+This project is licensed under the Blekinge-Mercatorum License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
