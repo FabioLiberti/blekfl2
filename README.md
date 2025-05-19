@@ -731,6 +731,21 @@ If you use BLEKFL2 in your research, please cite our work:
 
 2. Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., & Smith, V. (2020). Federated optimization in heterogeneous networks. *Proceedings of MLSys.*
 
+### Additional Resources
+
+A comprehensive collection of over 50 research papers on federated learning heterogeneity is available in the framework documentation and tutorials. These papers cover topics including:
+
+* Label distribution skew solutions
+* Feature distribution heterogeneity
+* Quality and quantity skew mitigations
+* Concept drift and shift handling methods
+* Personalization techniques
+* Meta-learning approaches
+* Privacy-preserving methods
+* Communication efficiency
+
+To access the complete bibliography, please refer to the documentation section of the framework at `/documentation/references/` after installation.
+
 ## 📜 License
 
 This project is licensed under the Blekinge-Mercatorum License - see the [LICENSE](LICENSE) file for details.
