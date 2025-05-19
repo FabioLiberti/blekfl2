@@ -104,6 +104,34 @@ Il sistema è basato su un'architettura client-server:
 
 La comunicazione tra frontend e backend avviene tramite chiamate API REST con scambio di dati in formato JSON.
 
+
+## 📂 Project Structure
+
+```
+blekfl2/
+├── app.py                      # Main Flask application
+├── dataset_manager.py          # Dataset loading and distribution
+├── federated_learning.py       # Core FL algorithms
+├── static/
+│   ├── css/                    # Stylesheets
+│   ├── js/
+│   │   ├── main.js             # Main frontend logic
+│   │   ├── results/            # Results visualization modules
+│   │   │   ├── index.js          # Entry point for results module
+│   │   │   ├── results_core.js   # Core results functionality
+│   │   │   └── ...               # Other modules
+│   └── images/                 # Images and icons
+├── templates/
+│   ├── index.html              # Main page template
+│   ├── label_skew.html         # Label distribution page
+│   └── ...                     # Other templates
+├── statistical_heterogeneity/  # Statistical heterogeneity experiments
+│   ├── label_distribution/     # Label distribution analysis
+│   └── ...                     # Other analysis modules
+├── requirements.txt            # Python dependencies
+└── README.md                   # This file
+```
+
 ## File del Progetto
 
 ### app.py
