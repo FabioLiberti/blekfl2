@@ -13,6 +13,11 @@
 # BLEKFL2 - Federated Learning Heterogeneity Explorer 
 Version 1.0.0
 
+[![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/FabioLiberti/blekfl2)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.7+-orange.svg)](https://www.python.org/)
+[![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-red.svg)](https://pytorch.org/)
+
 This framework is the result of a wonderful collaboration between the Blekinge Institute of Technology, BTH (Karlskrona, Sweden) and the University of the Italian Chambers of Commerce, Universitas Mercatorum (Rome, Italy).
 
 This platform is designed for educational purposes to demonstrate the effects of different types of heterogeneity in federated learning environments. By running controlled experiments, users can visualize and understand how statistical, model, communication, and hardware heterogeneity impact federated learning performance.
