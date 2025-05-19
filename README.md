@@ -42,7 +42,7 @@ Detailed performance metrics and analysis
 
 # Documentazione Completa del Simulatore di Federated Learning
 
-## 📚 Indice
+## Indice
 - [BLEKFL2 - Federated Learning Heterogeneity Explorer](#blekfl2---federated-learning-heterogeneity-explorer)
   - [Features](#features)
 - [Documentazione Completa del Simulatore di Federated Learning](#documentazione-completa-del-simulatore-di-federated-learning)
