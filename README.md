@@ -1,4 +1,3 @@
-
 <table style="border: none; margin: 0 auto; border-collapse: collapse;">
   <tr style="border: none;">
     <td style="border: none; text-align: center; padding: 20px; width: 300px; vertical-align: middle;">
@@ -9,6 +8,7 @@
     </td>
   </tr>
 </table>
+
 
 # BLEKFL2 - Federated Learning Heterogeneity Explorer 
 Version 1.0.0
@@ -42,13 +42,14 @@ Detailed performance metrics and analysis
 
 # Documentazione Completa del Simulatore di Federated Learning
 
-## Indice
+## 📚 Indice
 - [BLEKFL2 - Federated Learning Heterogeneity Explorer](#blekfl2---federated-learning-heterogeneity-explorer)
   - [Features](#features)
 - [Documentazione Completa del Simulatore di Federated Learning](#documentazione-completa-del-simulatore-di-federated-learning)
-  - [Indice](#indice)
+  - [📚 Indice](#-indice)
   - [Introduzione](#introduzione)
   - [Architettura del Sistema](#architettura-del-sistema)
+  - [📂 Project Structure](#-project-structure)
   - [File del Progetto](#file-del-progetto)
     - [app.py](#apppy)
     - [dataset\_manager.py](#dataset_managerpy)
@@ -76,6 +77,13 @@ Detailed performance metrics and analysis
   - [Interfaccia Web](#interfaccia-web)
   - [Requisiti del Sistema](#requisiti-del-sistema)
   - [Possibili Estensioni](#possibili-estensioni)
+  - [👥 Contributing](#-contributing)
+    - [Contribution Guidelines:](#contribution-guidelines)
+  - [📚 Publications and Citations](#-publications-and-citations)
+    - [Related Publications:](#related-publications)
+  - [📜 License](#-license)
+  - [🙏 Acknowledgments](#-acknowledgments)
+  - [📬 Contact](#-contact)
 
 ## Introduzione
 
@@ -104,7 +112,6 @@ Il sistema è basato su un'architettura client-server:
 
 La comunicazione tra frontend e backend avviene tramite chiamate API REST con scambio di dati in formato JSON.
 
-
 ## 📂 Project Structure
 
 ```
@@ -131,6 +138,7 @@ blekfl2/
 ├── requirements.txt            # Python dependencies
 └── README.md                   # This file
 ```
+
 
 ## File del Progetto
 
@@ -681,3 +689,70 @@ L'interfaccia web del simulatore è organizzata in diverse sezioni:
    - Simulazione di latenza e dropout dei client
    - Implementazione di strategie di selezione dei client
    - Strategie asincrone di aggiornamento
+
+
+## 👥 Contributing
+
+We welcome contributions to improve BLEKFL2! Here's how you can help:
+
+1. **Report bugs and suggest features** through GitHub issues
+2. **Implement new algorithms** for federated learning
+3. **Add support for new datasets**
+4. **Improve documentation** or add tutorials
+5. **Enhance visualization** components
+
+### Contribution Guidelines:
+
+1. Fork the repository
+2. Create a feature branch: `git checkout -b feature/new-algorithm`
+3. Commit your changes: `git commit -m 'Add new federated algorithm XYZ'`
+4. Push to the branch: `git push origin feature/new-algorithm`
+5. Submit a pull request
+
+## 📚 Publications and Citations
+
+If you use BLEKFL2 in your research, please cite our work:
+
+```bibtex
+@article{liberti2024blekfl2,
+  title={BLEKFL2: A Platform for Studying Heterogeneity in Federated Learning},
+  author={Liberti, Fabio and Others},
+  journal={Journal of Open Source Software},
+  year={2024},
+  volume={},
+  number={},
+  pages={}
+}
+```
+
+### Related Publications:
+
+1. McMahan, H. B., Moore, E., Ramage, D., Hampson, S., & y Arcas, B. A. (2017). Communication-efficient learning of deep networks from decentralized data. *Proceedings of AISTATS.*
+
+2. Li, T., Sahu, A. K., Zaheer, M., Sanjabi, M., Talwalkar, A., & Smith, V. (2020). Federated optimization in heterogeneous networks. *Proceedings of MLSys.*
+
+## 📜 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- This research was supported by Blekinge Institute of Technology and Universitas Mercatorum
+- Special thanks to all contributors and researchers in the federated learning community
+- We utilized PyTorch and Flask for implementation
+- The project was inspired by the challenges of implementing privacy-preserving machine learning systems
+
+## 📬 Contact
+
+- **Fabio Liberti** - Project Lead - [fabioliberti.fl@gmail.com](mailto:fabioliberti.fl@gmail.com)
+- **Project Website**: [https://github.com/FabioLiberti/blekfl2](https://github.com/FabioLiberti/blekfl2)
+
+
+---
+
+<p align="center">
+  <em>Built with ❤️ by the collaborative research team at BTH and Universitas Mercatorum</em>
+</p>
+```
+
+Puoi copiare tutto questo contenuto e salvarlo come `README.md` per il tuo repository.
