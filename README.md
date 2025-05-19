@@ -1,11 +1,11 @@
 
-<table style="border: none; margin: 0 auto;">
+<table style="border: none; margin: 0 auto; border-collapse: collapse;">
   <tr style="border: none;">
-    <td style="border: none; text-align: center; padding: 20px;">
-      <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Blekinge.jpeg" alt="Blekinge Institute of Technology Logo" height="150" style="max-height: 150px;"/>
+    <td style="border: none; text-align: center; padding: 20px; width: 300px; vertical-align: middle;">
+      <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Blekinge.jpeg" alt="Blekinge Institute of Technology Logo" width="200" style="max-width: 200px;"/>
     </td>
-    <td style="border: none; text-align: center; padding: 20px;">
-      <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Mercatorum.png" alt="Universitas Mercatorum Logo" height="150" style="max-height: 150px;"/>
+    <td style="border: none; text-align: center; padding: 20px; width: 300px; vertical-align: middle;">
+      <img src="https://github.com/FabioLiberti/blekfl2/blob/main/Mercatorum.png" alt="Universitas Mercatorum Logo" width="280" style="max-width: 280px;"/>
     </td>
   </tr>
 </table>
