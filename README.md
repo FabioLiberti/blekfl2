@@ -14,7 +14,7 @@
 Version 1.0.0
 
 [![Version](https://img.shields.io/badge/version-1.0.0-blue.svg)](https://github.com/FabioLiberti/blekfl2)
-[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
+[![License](https://img.shields.io/badge/license-Blekinge-Mercatorum-green.svg)](LICENSE)
 [![Python](https://img.shields.io/badge/python-3.7+-orange.svg)](https://www.python.org/)
 [![PyTorch](https://img.shields.io/badge/PyTorch-1.10+-red.svg)](https://pytorch.org/)
 
