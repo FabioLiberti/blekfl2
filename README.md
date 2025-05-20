@@ -769,5 +769,3 @@ This project is licensed under the Blekinge-Mercatorum License - see the [LICENS
   <em>Built with ❤️ by the collaborative research team at BTH and Universitas Mercatorum</em>
 </p>
 ```
-
-Puoi copiare tutto questo contenuto e salvarlo come `README.md` per il tuo repository.
